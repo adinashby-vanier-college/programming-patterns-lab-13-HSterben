@@ -10,9 +10,12 @@ public class SquareToRectangleAdapter implements Rectangle {
         height = square.side;
     }
     
+    @Override
     public int getWidth() {
         return width;
     }
+    
+    @Override
     public int getHeight() {
         return height;
     }
